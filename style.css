@@ -17,6 +17,7 @@ header, footer {
   height: calc(100vh - 5.3rem);
   display: flex;
   flex-wrap: wrap;
+  align-content: space-between;
 }
 
 footer {
@@ -27,8 +28,6 @@ footer {
 nav div {
   padding: .25rem 3.975rem 1.325rem;
   width: calc(100vw - 7.95rem);
-  display: flex;
-  align-self: flex-start;
   text-align: center;
   border-top: 2px solid #E8470B;
   text-transform: uppercase;
@@ -42,6 +41,14 @@ h2 {
   padding-left: 3.975rem;
   margin-bottom: 1.325rem;
   text-transform: uppercase;
+}
+
+a:active, a:visited, a:link, a:hover {
+  color: unset;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 span {
