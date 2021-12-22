@@ -1,3 +1,15 @@
+/*
+
+  webfonts go here, something like this:
+  
+ @font-face {
+   font-family: 'Monaco';
+   src: url('../fonts/monaco.woff') format('woff'),
+        url('../fonts/monaco.eot') format('eot')
+ }
+
+*/
+
 * {
   margin: 0;
   padding: 0;
